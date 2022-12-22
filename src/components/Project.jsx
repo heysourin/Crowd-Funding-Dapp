@@ -16,7 +16,6 @@ const Project = () => {
   )
 }
 
-
 const ProjectCard = ({ card, id }) => (
   <div id="projects" className="rounded-lg shadow-lg bg-white w-64 m-4">
     <Link to={'/projects/' + id}>

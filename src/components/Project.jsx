@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
 const Project = () => {
   return (
     <div className="flex flex-col px-6">
@@ -14,6 +15,7 @@ const Project = () => {
     </div>
   )
 }
+
 
 const ProjectCard = ({ card, id }) => (
   <div id="projects" className="rounded-lg shadow-lg bg-white w-64 m-4">

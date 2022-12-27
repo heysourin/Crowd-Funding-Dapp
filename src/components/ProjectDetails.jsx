@@ -1,3 +1,5 @@
+import { setGlobalState } from '../store'
+
 const ProjectDetails = () => {
   return (
     <div className="py-36 px-6 justify-center">
@@ -58,18 +60,21 @@ const ProjectDetails = () => {
           <button
             type="button"
             className="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+            onClick={() => setGlobalState('backModal', 'scale-100')}
           >
             Back Project
           </button>
           <button
             type="button"
             className="text-white bg-gradient-to-r from-gray-400 via-gray-500 to-gray-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-gray-800 shadow-lg shadow-gray-500/50 dark:shadow-lg dark:shadow-gray-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
-          >
+            onClick={() => setGlobalState('updateModal', 'scale-100')}
+            >
             Edit
           </button>
           <button
             type="button"
             className="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 shadow-lg shadow-red-500/50 dark:shadow-lg dark:shadow-red-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+            onClick={() => setGlobalState('deleteModal', 'scale-100')}
           >
             Delete{' '}
           </button>
@@ -79,7 +84,6 @@ const ProjectDetails = () => {
           >
             Payout
           </button>
-
         </div>
       </div>
     </div>

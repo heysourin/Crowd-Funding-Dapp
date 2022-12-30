@@ -1,0 +1,13 @@
+{
+    "attributes" : [
+        {
+            "color" : "White",
+            "object" : "Certificate",
+            "transferable" : "False"
+        }
+    ],
+
+    "description" : "Graduation Certificate~ Soulbound NFT",
+    "image" : "https://gateway.pinata.cloud/ipfs/QmcZDRHCZ3di7Br7YVpngTdsx9yW8TNhLCP9Vs6Ue9gttc",
+    "name" : "Graduation Certificate"
+}

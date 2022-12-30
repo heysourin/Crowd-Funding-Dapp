@@ -1,19 +1,17 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import favicon from '../assets/favicon.png'
 
-//D:\Codes\Blockchain\dApps\crowd-funding-dapp-dappmentors\src\favicon.png
 const Header = () => {
   return (
     <header className="flex justify-between items-center p-5 bg-white text-gray-500 hover:text-gray-700 shadow-lg fixed top-0 left-0 right-0">
-      <Link
+      <a
         to="/"
         href="#"
         className="flex justify-start items-center text-xl text-black space-x-1 font-semibold"
       >
         <img className="w-15 h-20 cursor-pointer" src={favicon} alt="" />
         <span>Crowd-Funding-Dapp</span>
-      </Link>
+      </a>
 
       <div className="flex space-x-2 justify-center">
         <button

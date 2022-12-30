@@ -3,10 +3,10 @@ import { setGlobalState } from "../store"
 const Hero = () => {
   return (
     <div className="text-center bg-white text-gray-800 py-36 px-6">
-      <h1 className="text-4xl md:text-4xl xl:text-6xl font-bold tracking-tight">
-        <span>Bring Creative Projects To Life On</span>
+      <h1 className="text-4xl md:text-4xl xl:text-6xl font-bold tracking-tight ">
+        <span>Your Opportunity To Bring A Change</span>
         <br />
-        <span className="uppercase text-pink-500">Genesis.</span>
+        <span className="uppercase text-pink-500 ">Crowd-Funding</span>
       </h1>
 
       <div>
